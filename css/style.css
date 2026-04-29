@@ -860,6 +860,37 @@ footer {
 }
 
 /* ============================================================
+   Contact Page Intro
+   ============================================================ */
+.contact-intro {
+  margin-bottom: 2.5rem;
+}
+
+/* ============================================================
+   Crisis Note (compact reminder strip)
+   ============================================================ */
+.crisis-note {
+  padding: 2rem 0;
+}
+
+.crisis-note p {
+  font-size: 0.95rem;
+  color: var(--green-soft);
+  margin-bottom: 0;
+}
+
+.crisis-note .crisis-note-label {
+  color: var(--charcoal);
+}
+
+/* ============================================================
+   Heading Spacing Utility
+   ============================================================ */
+.heading-spaced {
+  margin-top: 3rem;
+}
+
+/* ============================================================
    Responsive — Mobile additions for new components
    ============================================================ */
 @media (max-width: 768px) {
